@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dionysos.Db.Autofilter", "Dionysos.Db.Autofilter\Dionysos.Db.Autofilter.csproj", "{CF356FF0-F292-404E-A256-D401E4FB6EA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{75E01C0A-6BE8-4B0A-AF92-BEA1ED0B6736}"
+	ProjectSection(SolutionItems) = preProject
+		packages\MSBuildTasks.1.4.0.128\tools\MSBuild.Community.Tasks.Targets = packages\MSBuildTasks.1.4.0.128\tools\MSBuild.Community.Tasks.Targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFilterSample", "samples\AutoFilterSample\AutoFilterSample.csproj", "{A767E8B7-201A-469D-9B14-6373115C91A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfTest", "C:\Users\drago\OneDrive\Documents\Visual Studio 2015\Projects\EfTest\EfTest.csproj", "{BF22EC68-0731-4992-A056-512D08E5B04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogsAutoFilter", "samples\BlogsAutoFilter\BlogsAutoFilter.csproj", "{5761E16E-DC0D-41A4-83FB-DB1EB37E082D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF356FF0-F292-404E-A256-D401E4FB6EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF356FF0-F292-404E-A256-D401E4FB6EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF356FF0-F292-404E-A256-D401E4FB6EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF356FF0-F292-404E-A256-D401E4FB6EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A767E8B7-201A-469D-9B14-6373115C91A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A767E8B7-201A-469D-9B14-6373115C91A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A767E8B7-201A-469D-9B14-6373115C91A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A767E8B7-201A-469D-9B14-6373115C91A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF22EC68-0731-4992-A056-512D08E5B04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF22EC68-0731-4992-A056-512D08E5B04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF22EC68-0731-4992-A056-512D08E5B04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF22EC68-0731-4992-A056-512D08E5B04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5761E16E-DC0D-41A4-83FB-DB1EB37E082D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5761E16E-DC0D-41A4-83FB-DB1EB37E082D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5761E16E-DC0D-41A4-83FB-DB1EB37E082D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5761E16E-DC0D-41A4-83FB-DB1EB37E082D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
