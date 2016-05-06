@@ -1,5 +1,4 @@
-﻿using CodeFirstStoreFunctions;
-using Dionysos.Db.Autofilter;
+﻿using Dionysos.Db.Autofilter;
 using Dionysos.Db.Autofilter.Providers;
 using System;
 using System.Collections.Generic;
@@ -51,19 +50,12 @@ namespace AutoFilterSample
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Conventions.Add(new FunctionsConvention<SchoolContext>("dbo"));
-
             base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<Student> Students { get; set; }
         public DbSet<Standard> Standards { get; set; }
-
-        [DbFunction("CodeFirstDatabaseSchema", "IsDeleted")]
-        public static bool IsDeleted(bool isDeleted)
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public string CacheKey
         {
